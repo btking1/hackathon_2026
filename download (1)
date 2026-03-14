@@ -1,0 +1,8 @@
+# WeatherApp
+A simple weather application built with Python.
+
+## Setup
+pip install -r requirements.txt
+
+## Usage
+python main.py

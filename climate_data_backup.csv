@@ -1,0 +1,10 @@
+Title: Reinforcement Learning for Autonomous Vehicle Navigation
+Authors: Dr. Mark Thompson, Dr. Yuki Tanaka
+Published: IEEE Transactions on Intelligent Transportation Systems, 2019
+
+OUTDATED - This paper uses methods that have been significantly improved upon.
+Pre-dates the transformer revolution in RL.
+
+Abstract:
+We apply deep Q-learning to autonomous vehicle navigation in simulated urban
+environments, achieving 87% collision-free navigation rates across test scenarios.

@@ -1,0 +1,6 @@
+Invoice #,Date,Client,Amount,Status
+INV-2024-006,04/10/2024,Acme Corp,$48000,Paid
+INV-2024-007,05/05/2024,Wayne Enterprises,$72000,Paid
+INV-2024-008,05/18/2024,Globex Inc,$31000,Outstanding
+INV-2024-009,06/02/2024,Initech,$29500,Paid
+INV-2024-010,06/25/2024,Cyberdyne Systems,$55000,Paid

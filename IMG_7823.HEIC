@@ -1,0 +1,13 @@
+Title: Machine Learning Approaches for Climate Change Prediction
+Authors: Dr. Sarah Chen, Dr. James Rodriguez
+Published: Nature Climate Change, Vol 42, March 2024
+DOI: 10.1038/s41558-024-0001
+
+Abstract:
+This paper presents a novel deep learning framework for predicting regional climate
+patterns using historical temperature, precipitation, and atmospheric CO2 data.
+Our model achieves 94.2% accuracy on 10-year prediction windows, significantly
+outperforming traditional statistical methods. We demonstrate the framework's
+applicability across 15 distinct climate zones.
+
+Keywords: machine learning, climate change, deep learning, prediction, neural networks

@@ -1,0 +1,5 @@
+Metric,Q1,Q2,Q3,Q4
+Revenue Growth,5.2%,5.8%,4.9%,6.1%
+Customer Retention,94%,93%,95%,96%
+New Customers,145,162,138,178
+Churn Rate,6%,7%,5%,4%

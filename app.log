@@ -1,0 +1,8 @@
+{
+    "API_KEY": "sk-fake-12345-abcde-67890",
+    "DB_PASSWORD": "supersecretpassword123",
+    "DB_HOST": "prod-db.internal.company.com",
+    "SECRET_TOKEN": "ghp_xxxxxxxxxxxxxxxxxxxx",
+    "AWS_ACCESS_KEY": "AKIAIOSFODNN7EXAMPLE",
+    "AWS_SECRET_KEY": "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY"
+}

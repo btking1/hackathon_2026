@@ -1,0 +1,8 @@
+some,broken,csv,file
+this,doesn't,even,make
+sense,as,data,
+,,
+1,2,,4
+,hello,,world
+incomplete rows
+and random text mixed in with csv format
