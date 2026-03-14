@@ -1,0 +1,13 @@
+# this was the OLDER old main file
+# I really should delete these...
+
+import urllib.request
+import json
+
+def getWeather(city):
+    url = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=even_older_key"
+    response = urllib.request.urlopen(url)
+    data = json.loads(response.read())
+    return data
+
+getWeather("Paris")

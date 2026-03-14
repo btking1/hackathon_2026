@@ -1,0 +1,15 @@
+Meeting Notes - Sprint Retrospective
+=====================================
+Date: 2024-02-15
+
+What went well:
+- Shipped the weather feature on time
+- Good test coverage
+
+What could improve:
+- Need better code reviews
+- File organization is a mess (ironic, right?)
+
+Action items:
+- Clean up the repo (nobody will do this)
+- Set up linting

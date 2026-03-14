@@ -1,23 +1,53 @@
-# Applies safe corrections such as:
+# Action Engine
+# Decides what actions should be taken based on rule_engine issues
 
-# rename file
 
-# move file to a better folder
+def apply_rules(record):
 
-# tag/archive outdated files
+    actions = []
 
-# normalize metadata
+    # Rename file if normalization rule triggered
+    if "filename_not_normalized" in record["issues"]:
+        actions.append(
+            {
+                "type": "rename",
+                "new_name": record["normalized_name"],
+                "reason": "filename normalization",
+            }
+        )
 
-# Risky actions should be optional or require approval
-#
-def apply_rule(file, rules):
+    # Archive outdated files
+    if "outdated_file" in record["issues"]:
+        actions.append(
+            {"type": "archive", "destination": "archive", "reason": "outdated file"}
+        )
 
-    corrections = rules
-    is_risky = False
-    for correction in corrections:
-        if file == correction:
-            # TODO
-            print("apply correction")
-            if is_risky:
-                # TODO
-                print("needs approval")
+    # Move compiled artifacts
+    if "compiled_artifact" in record["issues"]:
+        actions.append(
+            {"type": "move", "destination": "build", "reason": "compiled artifact"}
+        )
+
+    # Move sensitive files
+    if "sensitive_file" in record["issues"]:
+        actions.append(
+            {
+                "type": "move",
+                "destination": "sensitive",
+                "reason": "potential secret file",
+            }
+        )
+
+    # Organize files by category
+    if record.get("category"):
+        actions.append(
+            {
+                "type": "organize",
+                "destination": record["category"],
+                "reason": "file classification",
+            }
+        )
+
+    record["actions"] = actions
+
+    return record

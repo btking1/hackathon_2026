@@ -1,17 +1,30 @@
-# import os
 import shutil
 from pathlib import Path
 
 
-# build output folder using file name and the file type/category
-def output_builder(file, type):
+def build_output(record, base_dir="clean"):
 
-    # create new folder
-    Path(type).mkdir(exist_ok=False)
+    source_path = Path(record["path"])
 
-    file = Path(file)
-    new_directory = Path(f"clean/{type}")
+    # Decide destination folder
+    destination_folder = record.get("category", "misc")
 
-    # copy file into new directory
-    shutil.copy(file, new_directory)
-    print(f"file {file} to {new_directory} successfully moved")
+    # Archive outdated files
+    if "outdated_file" in record["issues"]:
+        destination_folder = "archive"
+
+    # Use normalized filename if it exists
+    new_name = record.get("normalized_name", record["name"])
+
+    # Build destination path
+    destination_dir = Path(base_dir) / destination_folder
+    destination_dir.mkdir(parents=True, exist_ok=True)
+
+    destination_path = destination_dir / new_name
+
+    # Copy file
+    shutil.copy2(source_path, destination_path)
+
+    print(f"{source_path.name} → {destination_path}")
+
+    return str(destination_path)

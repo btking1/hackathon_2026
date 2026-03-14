@@ -1,0 +1,704 @@
+Timestamp: 2026-03-14 12:08:03.258337
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Q1_2024_revenue_report.xlsx
+New Path: clean/finance/q1_2024_revenue_report.xlsx
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'q1_2024_revenue_report.xlsx', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.260366
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/weather_service.cpython-311.pyc
+New Path: clean/misc/weather_service.cpython-311.pyc
+Issues Detected: ['compiled_artifact']
+Actions Taken: [{'type': 'move', 'destination': 'build', 'reason': 'compiled artifact'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.263327
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/PKG-INFO
+New Path: clean/misc/pkg-info
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'pkg-info', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.264492
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/download (1)
+New Path: clean/misc/download_1
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'download_1', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.265567
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/advisor meeting 01-18-2024.txt
+New Path: clean/misc/advisor_meeting_01-18-2024.txt
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'advisor_meeting_01-18-2024.txt', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.266483
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/thesis_outline_draft1.docx
+New Path: clean/docs/thesis_outline_draft1.docx
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'docs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.267400
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/q2 2024 Revenue Report.csv
+New Path: clean/finance/q2_2024_revenue_report.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'q2_2024_revenue_report.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.268298
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/test_utils.py
+New Path: clean/code/test_utils.py
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.269111
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/autonomous vehicles RL 2019 - outdated.pdf
+New Path: clean/research/autonomous_vehicles_rl_2019_-_outdated.pdf
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'autonomous_vehicles_rl_2019_-_outdated.pdf', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'research', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.270013
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/hawaii_trip_2023.jpg
+New Path: clean/images/hawaii_trip_2023.jpg
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.270649
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/invoice log q2.csv
+New Path: clean/finance/invoice_log_q2.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'invoice_log_q2.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.271974
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/main.cpython-311.pyc
+New Path: clean/misc/main.cpython-311.pyc
+Issues Detected: ['compiled_artifact']
+Actions Taken: [{'type': 'move', 'destination': 'build', 'reason': 'compiled artifact'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.272757
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/IMG_7824.HEIC
+New Path: clean/images/img_7824.heic
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'img_7824.heic', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.273501
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/beach_sunset_cancun.jpg
+New Path: clean/images/beach_sunset_cancun.jpg
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.274166
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/.DS_Store
+New Path: clean/misc/.ds_store
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': '.ds_store', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.274756
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/revenue report Q4 (2024) FINAL.csv
+New Path: clean/finance/revenue_report_q4_2024_final.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'revenue_report_q4_2024_final.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.275452
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/KPI Dashboard 2024.csv
+New Path: clean/finance/kpi_dashboard_2024.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'kpi_dashboard_2024.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.275957
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/ml_meme_funny.png
+New Path: clean/images/ml_meme_funny.png
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.276403
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/requirements.txt
+New Path: clean/misc/requirements.txt
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.277088
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/CRISPR Ethics - Adams Yamamoto (2024).pdf
+New Path: clean/research/crispr_ethics_-_adams_yamamoto_2024.pdf
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'crispr_ethics_-_adams_yamamoto_2024.pdf', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'research', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.277633
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/drug_candidates_simulation_results.csv
+New Path: clean/finance/drug_candidates_simulation_results.csv
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.278147
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/NeurIPS 2024 travel grant application.docx
+New Path: clean/docs/neurips_2024_travel_grant_application.docx
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'neurips_2024_travel_grant_application.docx', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'docs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.278663
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/ML_Climate_Change_Prediction_Chen_2024.pdf
+New Path: clean/research/ml_climate_change_prediction_chen_2024.pdf
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'ml_climate_change_prediction_chen_2024.pdf', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'research', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.279097
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/references.bib
+New Path: clean/misc/references.bib
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.279622
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/weather_service.py
+New Path: clean/code/weather_service.py
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.280327
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/funny_meme.gif
+New Path: clean/images/funny_meme.gif
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.281133
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/temp_anomaly_plot.png
+New Path: clean/images/temp_anomaly_plot.png
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.281811
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Invoice_Log_Q1_2024.csv
+New Path: clean/finance/invoice_log_q1_2024.csv
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'invoice_log_q1_2024.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.282303
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/IMG_7823.HEIC
+New Path: clean/images/img_7823.heic
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'img_7823.heic', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.283217
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/NLU benchmark results.csv
+New Path: clean/finance/nlu_benchmark_results.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'nlu_benchmark_results.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.284366
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/bank_accounts_summary.csv
+New Path: clean/finance/bank_accounts_summary.csv
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.285081
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/API_endpoint.py
+New Path: clean/code/api_endpoint.py
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'api_endpoint.py', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.285521
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/lit review notes climate.txt
+New Path: clean/misc/lit_review_notes_climate.txt
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'lit_review_notes_climate.txt', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.286018
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/secrets.json
+New Path: clean/misc/secrets.json
+Issues Detected: ['sensitive_file']
+Actions Taken: [{'type': 'move', 'destination': 'sensitive', 'reason': 'potential secret file'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.286543
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/budget_2021_superseded.csv
+New Path: clean/archive/budget_2021_superseded.csv
+Issues Detected: ['outdated_file']
+Actions Taken: [{'type': 'archive', 'destination': 'archive', 'reason': 'outdated file'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.287026
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/utils.cpython-311.pyc
+New Path: clean/misc/utils.cpython-311.pyc
+Issues Detected: ['compiled_artifact']
+Actions Taken: [{'type': 'move', 'destination': 'build', 'reason': 'compiled artifact'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.287389
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/quick analysis.py
+New Path: clean/code/quick_analysis.py
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'quick_analysis.py', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.287876
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/_$temp_budget_calc.xlsx
+New Path: clean/finance/_$temp_budget_calc.xlsx
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.288357
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/cute_cats_compilation.jpeg
+New Path: clean/images/cute_cats_compilation.jpeg
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.288891
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/blockchain supply chain Kim.pdf
+New Path: clean/research/blockchain_supply_chain_kim.pdf
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'blockchain_supply_chain_kim.pdf', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'research', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.289699
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/tax info CONFIDENTIAL.txt
+New Path: clean/misc/tax_info_confidential.txt
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'tax_info_confidential.txt', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.290302
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/README.md
+New Path: clean/misc/readme.md
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'readme.md', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.290636
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/cool wallpaper.bmp
+New Path: clean/images/cool_wallpaper.bmp
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'cool_wallpaper.bmp', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.291039
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/weatherapp-1.0.0.tar.gz
+New Path: clean/misc/weatherapp-1.0.0.tar.gz
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.291456
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/file_clean.cpp
+New Path: clean/code/file_clean.cpp
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.291852
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/My Helper Functions.py
+New Path: clean/code/my_helper_functions.py
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'my_helper_functions.py', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.292285
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/IMG_4392.png
+New Path: clean/images/img_4392.png
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'img_4392.png', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.292680
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/THESIS OUTLINE v3 LATEST.docx
+New Path: clean/docs/thesis_outline_v3_latest.docx
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'thesis_outline_v3_latest.docx', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'docs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.293127
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Budget 2023 FINAL (old).csv
+New Path: clean/archive/budget_2023_final_old.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized', 'outdated_file']
+Actions Taken: [{'type': 'rename', 'new_name': 'budget_2023_final_old.csv', 'reason': 'filename normalization'}, {'type': 'archive', 'destination': 'archive', 'reason': 'outdated file'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.293456
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/main_v1_DO_NOT_USE.py
+New Path: clean/code/main_v1_do_not_use.py
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'main_v1_do_not_use.py', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.293814
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Database Handler.py
+New Path: clean/code/database_handler.py
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'database_handler.py', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.294211
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/urban_transport_sustainability_index.csv
+New Path: clean/finance/urban_transport_sustainability_index.csv
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.294709
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/untitled spreadsheet (1).csv
+New Path: clean/finance/untitled_spreadsheet_1.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'untitled_spreadsheet_1.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.295540
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/example.py
+New Path: clean/code/example.py
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.295862
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/utils.py
+New Path: clean/code/utils.py
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.296479
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Lab Meeting Presentation March.pptx
+New Path: clean/docs/lab_meeting_presentation_march.pptx
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'lab_meeting_presentation_march.pptx', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'docs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.300631
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Copy of Q1_2024_revenue_report.csv
+New Path: clean/archive/copy_of_q1_2024_revenue_report.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized', 'outdated_file']
+Actions Taken: [{'type': 'rename', 'new_name': 'copy_of_q1_2024_revenue_report.csv', 'reason': 'filename normalization'}, {'type': 'archive', 'destination': 'archive', 'reason': 'outdated file'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.301356
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/email draft - IMPORTANT.txt
+New Path: clean/misc/email_draft_-_important.txt
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'email_draft_-_important.txt', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.301842
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/my personal budget march.csv
+New Path: clean/finance/my_personal_budget_march.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'my_personal_budget_march.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.302612
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/chen_rodriguez_2024_climate_ML_COPY.pdf
+New Path: clean/research/chen_rodriguez_2024_climate_ml_copy.pdf
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'chen_rodriguez_2024_climate_ml_copy.pdf', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'research', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.303030
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/notes_todo.txt
+New Path: clean/misc/notes_todo.txt
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.303373
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/temp_scratch_notes.txt
+New Path: clean/misc/temp_scratch_notes.txt
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.303848
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/historical_revenue_2019-2023.csv
+New Path: clean/finance/historical_revenue_2019-2023.csv
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.304747
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Payroll_January_2024.csv
+New Path: clean/finance/payroll_january_2024.csv
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'payroll_january_2024.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.305198
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/global_climate_data_2015_2024.csv
+New Path: clean/finance/global_climate_data_2015_2024.csv
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.305546
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/old_app.log
+New Path: clean/archive/old_app.log
+Issues Detected: ['outdated_file']
+Actions Taken: [{'type': 'archive', 'destination': 'archive', 'reason': 'outdated file'}, {'type': 'organize', 'destination': 'logs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.305984
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/VENDOR PAYMENTS - Summer 2024.csv
+New Path: clean/finance/vendor_payments_-_summer_2024.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'vendor_payments_-_summer_2024.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.307644
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/ML weather prediction survey 2018 OLD.pdf
+New Path: clean/archive/ml_weather_prediction_survey_2018_old.pdf
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized', 'outdated_file']
+Actions Taken: [{'type': 'rename', 'new_name': 'ml_weather_prediction_survey_2018_old.pdf', 'reason': 'filename normalization'}, {'type': 'archive', 'destination': 'archive', 'reason': 'outdated file'}, {'type': 'organize', 'destination': 'research', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.308570
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/feb payroll 2024.csv
+New Path: clean/finance/feb_payroll_2024.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'feb_payroll_2024.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.309113
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/grandmas cookie recipe.docx
+New Path: clean/docs/grandmas_cookie_recipe.docx
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'grandmas_cookie_recipe.docx', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'docs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.309537
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/NEURAL_NETWORKS_NLU_Patel_Liu.pdf
+New Path: clean/research/neural_networks_nlu_patel_liu.pdf
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'neural_networks_nlu_patel_liu.pdf', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'research', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.309892
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/meeting notes march 7.txt
+New Path: clean/misc/meeting_notes_march_7.txt
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'meeting_notes_march_7.txt', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.310194
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/thesis outline v2 OLD.docx
+New Path: clean/archive/thesis_outline_v2_old.docx
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized', 'outdated_file']
+Actions Taken: [{'type': 'rename', 'new_name': 'thesis_outline_v2_old.docx', 'reason': 'filename normalization'}, {'type': 'archive', 'destination': 'archive', 'reason': 'outdated file'}, {'type': 'organize', 'destination': 'docs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.310704
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Daves Resume 2024.docx
+New Path: clean/docs/daves_resume_2024.docx
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'daves_resume_2024.docx', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'docs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.311010
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/grocery list.txt
+New Path: clean/misc/grocery_list.txt
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'grocery_list.txt', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.311372
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/quantum computing drug discovery.pdf
+New Path: clean/research/quantum_computing_drug_discovery.pdf
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'quantum_computing_drug_discovery.pdf', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'research', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.312300
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/main.py
+New Path: clean/code/main.py
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.312912
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/PAYROLL-MARCH.csv
+New Path: clean/finance/payroll-march.csv
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'payroll-march.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.313314
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Budget_2022_DO_NOT_USE.csv
+New Path: clean/finance/budget_2022_do_not_use.csv
+Issues Detected: ['filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'budget_2022_do_not_use.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.313696
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/chicken parm recipe.docx
+New Path: clean/docs/chicken_parm_recipe.docx
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'chicken_parm_recipe.docx', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'docs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.314091
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/asdfasdf.txt
+New Path: clean/misc/asdfasdf.txt
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.314842
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Screenshot 2024-03-15 at 2.34.12 PM.png
+New Path: clean/images/screenshot_2024-03-15_at_2.34.12_pm.png
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'screenshot_2024-03-15_at_2.34.12_pm.png', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'images', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.315693
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/app.log
+New Path: clean/logs/app.log
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'logs', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.316118
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/climate_data_backup.csv
+New Path: clean/finance/climate_data_backup.csv
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.316562
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/ICML 2024 schedule and notes.txt
+New Path: clean/misc/icml_2024_schedule_and_notes.txt
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'icml_2024_schedule_and_notes.txt', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'misc', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.317186
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/Account Balances EOY 2024.csv
+New Path: clean/finance/account_balances_eoy_2024.csv
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'account_balances_eoy_2024.csv', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.317611
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/LOGGER SETUP.py
+New Path: clean/code/logger_setup.py
+Issues Detected: ['spaces_in_filename', 'filename_not_normalized']
+Actions Taken: [{'type': 'rename', 'new_name': 'logger_setup.py', 'reason': 'filename normalization'}, {'type': 'organize', 'destination': 'code', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------
+Timestamp: 2026-03-14 12:08:03.317998
+Original Path: /Users/godsiom/coding/school/hackathon_2026/datasets/expense_tracking_2024.csv
+New Path: clean/finance/expense_tracking_2024.csv
+Issues Detected: []
+Actions Taken: [{'type': 'organize', 'destination': 'finance', 'reason': 'file classification'}]
+Success: True
+Reason: Processed successfully
+--------------------------------------------------

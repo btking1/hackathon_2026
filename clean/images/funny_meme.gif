@@ -1,0 +1,6 @@
+node_modules placeholder - someone initialized npm in a Python project
+{
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "wait why is this here"
+}

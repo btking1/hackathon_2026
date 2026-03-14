@@ -1,0 +1,16 @@
+@article{chen2024climate,
+  title={Machine Learning Approaches for Climate Change Prediction},
+  author={Chen, Sarah and Rodriguez, James},
+  journal={Nature Climate Change},
+  volume={42},
+  year={2024}
+}
+
+@article{vasquez2024quantum,
+  title={Quantum Computing Applications in Drug Discovery},
+  author={Vasquez, Elena and Park, Michael and Thompson, Lisa},
+  journal={Journal of Computational Chemistry},
+  year={2024}
+}
+
+THIS IS A DUPLICATE OF references.bib
