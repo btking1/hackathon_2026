@@ -1,9 +1,0 @@
-{
-    "app_name": "WeatherApp",
-    "version": "1.2.0",
-    "debug": true,
-    "log_level": "DEBUG",
-    "api_base_url": "https://api.openweathermap.org/data/2.5",
-    "cache_ttl": 300,
-    "max_retries": 3
-}

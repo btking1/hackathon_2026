@@ -13,15 +13,15 @@ def main():
         return
 
     for record in records:
-        # Run all rules from rule_engine.py
-        for rule in rule_engine.RULES:
-            record = rule(record)
-
         try:
-            # Decide what actions to take
+            # Run every rule in the rule engine
+            for rule in rule_engine.RULES:
+                record = rule(record)
+
+            # Decide actions based on issues found
             record = action_engine.apply_rules(record)
 
-            # Build cleaned output
+            # Build cleaned output and get new file path
             new_path = output_builder.build_output(record)
 
             # Log success
@@ -37,13 +37,15 @@ def main():
         except Exception as e:
             # Log failure
             logger.log_change(
-                original_path=record["path"],
+                original_path=record.get("path", ""),
                 new_path="",
                 issues=record.get("issues", []),
                 actions=record.get("actions", []),
                 success=False,
                 reason=str(e),
             )
+
+            print(f"Error processing {record.get('name', 'unknown file')}: {e}")
 
 
 if __name__ == "__main__":

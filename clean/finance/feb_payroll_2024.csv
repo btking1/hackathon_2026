@@ -1,6 +1,0 @@
-Invoice #,Date,Client,Amount,Status
-INV-2024-001,01/15/2024,Acme Corp,$45000,Paid
-INV-2024-002,01/22/2024,Globex Inc,$32000,Paid
-INV-2024-003,02/03/2024,Initech,$28000,Paid
-INV-2024-004,02/14/2024,Umbrella Corp,$51000,Paid
-INV-2024-005,03/01/2024,Stark Industries,$67000,Overdue

@@ -1,7 +1,0 @@
-Model,GLUE_Score,SuperGLUE_Score,SQuAD_F1,Parameters_M,Training_Hours
-BERT-base,79.6,69.0,88.5,110,96
-GPT-2,72.1,62.3,81.2,1500,168
-RoBERTa,88.5,84.6,94.6,355,120
-TransformerX,89.2,86.1,95.0,280,84
-T5-large,88.9,85.4,94.8,770,144
-ALBERT,82.3,74.2,90.1,12,48

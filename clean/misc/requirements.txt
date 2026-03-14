@@ -1,2 +1,0 @@
-.DS_Store placeholder
-macOS system file that should be in .gitignore
