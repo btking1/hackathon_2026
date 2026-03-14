@@ -9,7 +9,7 @@ def scan_folder():
 
     directory = Path(file)
 
-    print(directory)
+    # print(directory)
 
     records = []
 
@@ -32,4 +32,5 @@ def scan_folder():
             records.append(info)
 
             # print(records)
-            return records
+
+    return records
