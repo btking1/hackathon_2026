@@ -25,6 +25,7 @@ def scan_folder():
                 "created": datetime.datetime.fromtimestamp(stats.st_ctime),
                 "modified": datetime.datetime.fromtimestamp(stats.st_mtime),
                 "accessed": datetime.datetime.fromtimestamp(stats.st_atime),
+                "issues": [],
             }
             # print(info)
 

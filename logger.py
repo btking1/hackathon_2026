@@ -8,6 +8,7 @@ from pathlib import Path
 # timestamp
 # success/failure reason
 
+# create folder if it doesnt exist
 original_dir = Path("original_dir").mkdir(exist_ok=True)
 new_dir = Path("new_folder").mkdir(exist_ok=True)
 
