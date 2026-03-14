@@ -30,4 +30,5 @@ def scan_folder():
 
             records.append(info)
 
-            print(records)
+            # print(records)
+            return records
