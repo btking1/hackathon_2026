@@ -2,12 +2,16 @@
 import shutil
 from pathlib import Path
 
-Path("new_folder").mkdir(exist_ok=True)
 
-directory = Path(
-    "/Users/godsiom/Library/Mobile Documents/com~apple~CloudDocs/NCAT/Spring 2026/ECEN 356"
-)
+# build output folder using file name and the file type/category
+def output_builder(file, type):
 
-for file in directory.rglob("*"):
-    shutil.copy(file, "new_folder/")
-    print(f"file {file} successfully moved")
+    # create new folder
+    Path(type).mkdir(exist_ok=False)
+
+    file = Path(file)
+    new_directory = Path(f"clean/{type}")
+
+    # copy file into new directory
+    shutil.copy(file, new_directory)
+    print(f"file {file} to {new_directory} successfully moved")

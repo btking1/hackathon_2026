@@ -1,5 +1,13 @@
-import action_engine
-import logger
+# import action_engine
+# import logger
 import output_builder
-import rule_engine
+
+# import rule_engine
 import scanner
+
+records = scanner.scan_folder()
+
+if records is not None:
+    for record in records:
+        filename = record["name"]
+        output_builder.output_builder(filename, "example")
