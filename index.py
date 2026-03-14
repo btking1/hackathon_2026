@@ -1,3 +1,5 @@
+import time
+
 import action_engine
 import logger
 import output_builder
@@ -6,6 +8,8 @@ import scanner
 
 
 def main():
+
+    start_time = time.time()
     records = scanner.scan_folder()
 
     if records is None:
@@ -46,6 +50,11 @@ def main():
             )
 
             print(f"Error processing {record.get('name', 'unknown file')}: {e}")
+
+    end_time = time.time()
+    runtime = end_time - start_time
+
+    print(f"\nProgram finished in {runtime:.4f} ms")
 
 
 if __name__ == "__main__":

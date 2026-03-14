@@ -1,0 +1,1 @@
+Binary placeholder - compiled Python bytecode

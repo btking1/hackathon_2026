@@ -1,0 +1,11 @@
+temp file delete me later
+scratch work:
+72 * 1.8 + 32 = 161.6
+no wait thats wrong
+(72 - 32) / 1.8 = 22.2 celsius
+ok that works
+
+api url: https://api.openweathermap.org/data/2.5/weather?q=London&appid=KEY
+
+response format:
+{"main": {"temp": 280.32}, "weather": [{"description": "clear sky"}]}

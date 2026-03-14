@@ -1,0 +1,22 @@
+import requests
+import json
+from weather_service import WeatherService
+from utils import format_temperature, validate_city
+
+
+def main():
+    service = WeatherService(api_key="abc123fake")
+    city = input("Enter city name: ")
+    
+    if not validate_city(city):
+        print("Invalid city name")
+        return
+    
+    weather = service.get_current_weather(city)
+    print(f"Temperature: {format_temperature(weather['temp'])}")
+    print(f"Conditions: {weather['conditions']}")
+    print(f"Humidity: {weather['humidity']}%")
+
+
+if __name__ == "__main__":
+    main()
